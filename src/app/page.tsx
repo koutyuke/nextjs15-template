@@ -6,28 +6,22 @@ export default function Home() {
 			<main className="row-start-2 flex flex-col items-center gap-[32px] sm:items-start">
 				<Image className="dark:invert" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
 				<ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm/6 sm:text-left">
-					<li className="mb-2 tracking-[-.01em]">
-						Get started by editing{" "}
-						<code className="rounded bg-black/[.05] px-1 py-0.5 font-[family-name:var(--font-geist-mono)] font-semibold dark:bg-white/[.06]">
-							src/app/page.tsx
-						</code>
-						.
-					</li>
+					<li className="mb-2 tracking-[-.01em]">Get started by editing .</li>
 					<li className="tracking-[-.01em]">Save and see your changes instantly.</li>
 				</ol>
 
-				<div className="flex flex-col items-center gap-4 sm:flex-row">
+				<div className="flex flex-col items-center gap-4 sm:flex-row text">
 					<a
-						className="flex h-10 items-center justify-center gap-2 rounded-full border border-transparent border-solid bg-foreground px-4 font-medium text-background text-sm transition-colors hover:bg-[#383838] sm:h-12 sm:w-auto sm:px-5 sm:text-base dark:hover:bg-[#ccc]"
-						href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+						className="flex h-10 items-center justify-center gap-2 rounded-full border border-transparent border-solid bg-red-500 px-4 font-medium text-background text-sm transition-colors hover:bg-[#383838] sm:h-12 sm:w-auto sm:px-5 sm:text-base dark:hover:bg-[#ccc] "
+						href="https://www.ibaraki-ct.ac.jp/index.html"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						<Image className="dark:invert" src="/vercel.svg" alt="Vercel logomark" width={20} height={20} />
-						Deploy now
+						Ibaraki Kosen
 					</a>
 					<a
-						className="flex h-10 w-full items-center justify-center rounded-full border border-black/[.08] border-solid px-4 font-medium text-sm transition-colors hover:border-transparent hover:bg-[#f2f2f2] sm:h-12 sm:w-auto sm:px-5 sm:text-base md:w-[158px] dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
+						className=" h-10 w-full items-center justify-center rounded-full border border-black/[.08] border-solid px-4 font-medium text-sm transition-colors hover:border-transparent hover:bg-[#f2f2f2] sm:h-12 sm:w-auto sm:px-5 sm:text-base md:w-[158px] dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
 						href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
 						target="_blank"
 						rel="noopener noreferrer"

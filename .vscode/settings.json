@@ -204,15 +204,7 @@
   "editor.defaultFormatter": "biomejs.biome",
   "npm.packageManager": "bun",
   "svg.preview.background": "transparent",
-  "tailwindCSS.experimental.classRegex": [
-    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
-    ["tv\\(([\\s\\S]*?)\\);", "[\"']([^\"']*).*?[\"']"],
-    ["twMerge\\(([\\s\\S]*?)\\);", "[\"']([^\"']*).*?[\"']"],
-    ["tv\\(([\\s\\S]*?)\\)", "[\"']([^\"']*).*?[\"']"],
-    ["twMerge\\(([\\s\\S]*?)\\)", "[\"']([^\"']*).*?[\"']"],
-    ["[A-Za-z_][A-Za-z0-9_]*ClassName\\s*[:=]\\s*{?[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["[A-Za-z_][A-Za-z0-9_]*ClassName\\s*[:=]\\s*{?`([^`]*).*?`", "[\"']([^\"']*).*?[\"']"]
-  ],
+
   "tailwindCSS.includeLanguages": {
     "typescript": "javascript",
     "typescriptreact": "javascript"
